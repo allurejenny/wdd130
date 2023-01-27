@@ -28,7 +28,7 @@ main section {
 }
 
 body {
-    background-color: white;
+    background-color: rgb(231, 231, 231);
 }
 
 header {
@@ -54,16 +54,16 @@ nav a:hover {
 }
 
 .msg {
-    background-color: white;
+    background-color: rgb(207, 198, 198);
 }
 
 footer {
-    background-color: green;
+    background-color: rgb(34, 119, 34);
     color: black;
 }
 
 .home-title {
-    color: green;
+    color: rgb(4, 51, 4);
 }
 
 h4 {
@@ -71,11 +71,11 @@ h4 {
 }
 
 .msg h2 {
-    color: white;
+    color: black;
 }
 
 .msg p {
-    color: white;
+    color: black;
 }
 
 footer a {
@@ -88,7 +88,7 @@ footer a:hover {
 }
 
 .logo {
-    width: 80%;
+    width: 80px;
 }
 
 .icon {
