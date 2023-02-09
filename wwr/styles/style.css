@@ -41,7 +41,7 @@ main section img {
 
 body {
     background-color: rgb(231, 231, 231);
-    font-family: Merriweather, Helvetica, sans-serif;
+    font-family: Merriweather, Garamond, serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -49,12 +49,12 @@ body {
 
 header {
     background-color: #043304;
-    font-family: Merriweather, Helvetica, sans-serif;
+    font-family: Merriweather, Garamond, serif;
 }
 
 .home-title {
     color: #043304;
-    font-family: Playfair Display, Arial, sans-serif;
+    font-family: "Playfair Display", 'Times New Roman', serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -96,6 +96,7 @@ nav a:hover {
     padding-top: 5px;
     margin-top: 50px;
     border-radius: 5px;
+
 }
 
 .book:hover,
@@ -120,7 +121,7 @@ h2 {
 
 .msg h2 {
     color: black;
-    font-family: Playfair Display, Arial, sans-serif;
+    font-family: "Playfair Display", 'Times New Roman', serif;
 }
 
 .msg p {
