@@ -198,6 +198,89 @@ h2 {
     padding-top: 10px;
 }
 
+#rivers {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+#rivers-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#rivers-img {
+    width: 100%;
+}
+
+#rivers-msg {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-top: 100px;
+}
+
+#rivers-msg,
+h1 {
+    color: white;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers_trips {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rivers_trips h2 {
+    margin-bottom: 20px;
+}
+
+.text_heading {
+    text-align: center;
+}
+
+.frame-img {
+    width: 100%;
+    border: 3px solid rgb(155, 150, 150);
+}
+
+.salmon-card {
+    margin: 100px 0;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.salmon-msg p {
+    grid-column: 6/10;
+    grid-row: 2/3;
+}
+
+.desolation-card {
+    grid-column: 6/10;
+    grid-row: 4/5;
+}
+
+.desolation-msg p {
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.grand-card {
+    grid-column: 1/4;
+    grid-row: 6/7;
+}
+
+.grand-msg p {
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+
+
+
 footer {
     background-color: rgb(2, 22, 2);
     color: white;
