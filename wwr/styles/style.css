@@ -215,19 +215,20 @@ h2 {
 }
 
 #rivers-msg {
-    grid-column: 1/3;
-    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-row: 1/2;
     margin-top: 100px;
+    text-align: center;
+}
+
+.rivers-title {
+    font-family: "Playfair Display", 'Times New Roman', serif;
+    font-size: 2em;
 }
 
 #rivers-msg,
 h1 {
-    color: white;
-}
-
-.rivers-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    color: #f8a915;
 }
 
 .rivers_trips {
@@ -243,43 +244,76 @@ h1 {
     text-align: center;
 }
 
-.frame-img {
-    width: 100%;
-    border: 3px solid rgb(155, 150, 150);
+#rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(5, fr);
 }
 
-.salmon-card {
-    margin: 100px 0;
+.salmon-river-img {
     grid-column: 1/4;
+    grid-row: 1/2;
+    margin-right: 10px;
+}
+
+.salmon-river-text {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    font-size: .8em;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px 50px 20px;
+    max-width: 100%;
+}
+
+.desolation-river-img {
+    grid-column: 3/6;
     grid-row: 2/3;
 }
 
-.salmon-msg p {
-    grid-column: 6/10;
+.desolation-river-text {
+    grid-column: 1/3;
     grid-row: 2/3;
+    font-size: .8em;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 20px 50px 10px;
+    max-width: 100%;
 }
 
-.desolation-card {
-    grid-column: 6/10;
-    grid-row: 4/5;
-}
-
-.desolation-msg p {
+.grand-river-img {
     grid-column: 1/4;
-    grid-row: 4/5;
+    grid-row: 3/4;
+    margin-right: 10px;
 }
 
-.grand-card {
-    grid-column: 1/4;
-    grid-row: 6/7;
+.grand-river-text {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    font-size: .8em;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px 50px 20px;
+    max-width: 100%;
+
 }
 
-.grand-msg p {
-    grid-column: 6/10;
-    grid-row: 6/7;
+.images {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
+.view {
+    background-color: #043304;
+    color: white;
+    text-transform: none;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 
+.view:hover {
+    background-color: #314499;
+    color: white;
+}
 
 footer {
     background-color: rgb(2, 22, 2);
